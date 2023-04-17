@@ -2,7 +2,7 @@ import * as path from 'path'
 import * as grpc from '@grpc/grpc-js'
 import * as protoLoader from '@grpc/proto-loader'
 import {ProtoGrpcType} from '../protos/random'
-import readline from 'readline'
+import * as readline from 'readline'
 
 const PORT = 8082
 const PROTO_FILE = '../protos/random.proto'
